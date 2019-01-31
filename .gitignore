@@ -21,3 +21,6 @@
 /Source/RunGo.Server/packages
 /Source/RunGo.Server/RunGo.Server/bin
 /Source/RunGo.Server/RunGo.Server/obj/Debug
+*.nupkg
+/Source/RunGo.Repository/RunGo.Repository/RunGo.Repository.nuspec
+/Source/RunGo.Repository/RunGo.Repository/nuget.exe
