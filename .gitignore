@@ -9,4 +9,8 @@
 /Source/RunGo.Repository/RunGo.Repository/bin/Debug
 /Source/RunGo.Repository/RunGo.Repository/obj/Debug
 /Source/RunGo.Repository/RunGo.Repository/Properties
-/Source
+/Source/RunGo.NuGetServer/.vs
+/Source/RunGo.NuGetServer/packages
+/Source/RunGo.NuGetServer/RunGo.NuGetServer/bin
+/Source/RunGo.NuGetServer/RunGo.NuGetServer/obj
+/Source/RunGo.NuGetServer/RunGo.NuGetServer/Properties
