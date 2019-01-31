@@ -14,3 +14,10 @@
 /Source/RunGo.NuGetServer/RunGo.NuGetServer/bin
 /Source/RunGo.NuGetServer/RunGo.NuGetServer/obj
 /Source/RunGo.NuGetServer/RunGo.NuGetServer/Properties
+/Source/RunGo.Repository/RunGo.Repository/bin/Release
+/Source/RunGo.Repository/RunGo.Repository/obj/Release
+/Source/RunGo.Repository/.vs/RunGo.Repository/v14
+/Source/RunGo.Server/.vs/RunGo.Server/v14
+/Source/RunGo.Server/packages
+/Source/RunGo.Server/RunGo.Server/bin
+/Source/RunGo.Server/RunGo.Server/obj/Debug
