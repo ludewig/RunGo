@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGo.Server", "RunGo.Server\RunGo.Server.csproj", "{FE6D59AF-3261-4E58-8B43-2F204F2C6BA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGo.WebApi", "RunGo.WebApi\RunGo.WebApi.csproj", "{74E890A6-628A-40D6-A002-1528084E9F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGo.WebApi.Tests", "RunGo.WebApi.Tests\RunGo.WebApi.Tests.csproj", "{AA902C4C-4056-45C5-B577-40C0CFD7B830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGo.Repository", "RunGo.Repository\RunGo.Repository.csproj", "{5B3DD362-A073-423E-AA22-F7F33514022A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{FE6D59AF-3261-4E58-8B43-2F204F2C6BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE6D59AF-3261-4E58-8B43-2F204F2C6BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE6D59AF-3261-4E58-8B43-2F204F2C6BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E890A6-628A-40D6-A002-1528084E9F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E890A6-628A-40D6-A002-1528084E9F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E890A6-628A-40D6-A002-1528084E9F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E890A6-628A-40D6-A002-1528084E9F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA902C4C-4056-45C5-B577-40C0CFD7B830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA902C4C-4056-45C5-B577-40C0CFD7B830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA902C4C-4056-45C5-B577-40C0CFD7B830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA902C4C-4056-45C5-B577-40C0CFD7B830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3DD362-A073-423E-AA22-F7F33514022A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3DD362-A073-423E-AA22-F7F33514022A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3DD362-A073-423E-AA22-F7F33514022A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3DD362-A073-423E-AA22-F7F33514022A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

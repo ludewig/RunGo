@@ -24,3 +24,8 @@
 *.nupkg
 /Source/RunGo.Repository/RunGo.Repository/RunGo.Repository.nuspec
 /Source/RunGo.Repository/RunGo.Repository/nuget.exe
+/Source/RunGo.Server/RunGo.Repository/bin/Debug
+/Source/RunGo.Server/RunGo.Repository/obj/Debug
+/Source/RunGo.Server/RunGo.WebApi/bin
+/Source/RunGo.Server/RunGo.WebApi/obj/Debug
+/Source/RunGo.Server/RunGo.WebApi.Tests/obj/Debug
