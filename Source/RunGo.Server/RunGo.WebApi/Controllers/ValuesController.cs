@@ -4,19 +4,17 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Abp.WebApi.Controllers;
 
 namespace RunGo.WebApi.Controllers
 {
     /// <summary>
     /// 
     /// </summary>
-    public class ValuesController : AbpApiController
+    public class ValuesController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
         {
-            Logger.Debug("you have a log");
             return new string[] { "value1", "value2" };
         }
 

@@ -12,7 +12,7 @@ namespace RunGo.WebApi
     {
         public void Configuration(IAppBuilder app)
         {
-            app.UseAbp();
+            //app.UseAbp();
         }
     }
 }
