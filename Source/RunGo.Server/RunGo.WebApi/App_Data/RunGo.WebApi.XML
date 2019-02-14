@@ -481,10 +481,78 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:RunGo.WebApi.Controllers.BaseApiController`1">
+            <summary>
+            WebAPI公共基类
+            </summary>
+        </member>
+        <member name="P:RunGo.WebApi.Controllers.BaseApiController`1.Logger">
+            <summary>
+            日志服务
+            </summary>
+        </member>
+        <member name="P:RunGo.WebApi.Controllers.BaseApiController`1.Clients">
+            <summary>
+            SignalR客户端
+            </summary>
+        </member>
+        <member name="P:RunGo.WebApi.Controllers.BaseApiController`1.Groups">
+            <summary>
+            SignalR用户组
+            </summary>
+        </member>
+        <member name="M:RunGo.WebApi.Controllers.BaseApiController`1.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:RunGo.WebApi.Controllers.BaseMvcController`1">
+            <summary>
+            MVC公共基类
+            </summary>
+        </member>
+        <member name="P:RunGo.WebApi.Controllers.BaseMvcController`1.Logger">
+            <summary>
+            日志服务
+            </summary>
+        </member>
+        <member name="P:RunGo.WebApi.Controllers.BaseMvcController`1.Clients">
+            <summary>
+            SignalR客户端
+            </summary>
+        </member>
+        <member name="P:RunGo.WebApi.Controllers.BaseMvcController`1.Groups">
+            <summary>
+            SignalR用户组
+            </summary>
+        </member>
+        <member name="M:RunGo.WebApi.Controllers.BaseMvcController`1.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
         <member name="T:RunGo.WebApi.Controllers.ValuesController">
             <summary>
             
             </summary>
+        </member>
+        <member name="M:RunGo.WebApi.Helpers.MessageHub.Welcome(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RunGo.WebApi.Startup">
+            <summary>
+            OWIN启动类
+            </summary>
+        </member>
+        <member name="M:RunGo.WebApi.Startup.Configuration(Owin.IAppBuilder)">
+            <summary>
+            应用配置
+            </summary>
+            <param name="app"></param>
         </member>
     </members>
 </doc>

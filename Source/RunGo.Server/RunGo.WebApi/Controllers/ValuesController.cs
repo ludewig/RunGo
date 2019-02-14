@@ -10,11 +10,12 @@ namespace RunGo.WebApi.Controllers
     /// <summary>
     /// 
     /// </summary>
-    public class ValuesController : ApiController
+    public class ValuesController : BaseApiController<Helpers.MessageHub>,Helpers.IControllerActions
     {
         // GET api/values
         public IEnumerable<string> Get()
         {
+            Logger.Info("I have a bug!");
             return new string[] { "value1", "value2" };
         }
 
