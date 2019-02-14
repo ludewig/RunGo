@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
-using Abp.Owin;
 
 [assembly: OwinStartup(typeof(RunGo.WebApi.Startup))]
 
