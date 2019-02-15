@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace RunGo.Server.Controllers
 {
-    public class HomeController : BaseMvcController
+    public class HomeController : Controller
     {
         public ActionResult Index()
         {

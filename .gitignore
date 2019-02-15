@@ -24,3 +24,9 @@
 *.nupkg
 /Source/RunGo.Repository/RunGo.Repository/RunGo.Repository.nuspec
 /Source/RunGo.Repository/RunGo.Repository/nuget.exe
+/Source/RunGo.Server/RunGo.Server/App_Data/Logs/yyyyMMdd.txt
+/Source/RunGo.Server/.vs/RunGo.Server/v15/Server/sqlite3/storage.ide-wal
+/Source/RunGo.Server/.vs/RunGo.Server/v15/Server/sqlite3/storage.ide-shm
+/Source/RunGo.Server/.vs/RunGo.Server/v15/Server/sqlite3/storage.ide
+/Source/RunGo.Server/.vs/RunGo.Server/v15/Server/sqlite3/db.lock
+/Source/RunGo.Server/.vs/RunGo.Server/v15/.suo

@@ -481,15 +481,5 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
-        <member name="T:RunGo.Server.Controllers.BaseApiController">
-            <summary>
-            API控制器基类
-            </summary>
-        </member>
-        <member name="T:RunGo.Server.Controllers.BaseMvcController">
-            <summary>
-            MVC控制器基类
-            </summary>
-        </member>
     </members>
 </doc>
