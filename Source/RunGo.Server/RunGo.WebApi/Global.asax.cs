@@ -18,7 +18,9 @@ namespace RunGo.WebApi
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //日志服务注册
             log4net.Config.XmlConfigurator.Configure();
+            Helpers.JobScheduler.Start();
         }
     }
 }

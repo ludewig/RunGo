@@ -26,6 +26,11 @@ namespace RunGo.WebApi.Controllers
         /// SignalR用户组
         /// </summary>
         protected IGroupManager Groups { get; private set; }
+        
+        /// <summary>
+        /// MQTT服务
+        /// </summary>
+        protected Helpers.IWorker Worker { get; set; }
 
         /// <summary>
         /// 构造函数
@@ -35,6 +40,7 @@ namespace RunGo.WebApi.Controllers
             //log4net.ILog log = log4net.LogManager.GetCurrentLoggers()[0];
             //Logger = new Helpers.Log4NetLogger(log,new Helpers.Log4NetLoggerFactory());
             Logger = Castle.Core.Logging.NullLogger.Instance;
+            Worker = new Helpers.MqttWorker();
 
             var context = GlobalHost.ConnectionManager.GetHubContext<T>();
             Clients = context.Clients;
@@ -62,6 +68,10 @@ namespace RunGo.WebApi.Controllers
         /// </summary>
         protected IGroupManager Groups { get; private set; }
 
+        /// <summary>
+        /// MQTT服务
+        /// </summary>
+        protected Helpers.IWorker Worker { get; private set; }
 
         /// <summary>
         /// 构造函数
@@ -69,6 +79,7 @@ namespace RunGo.WebApi.Controllers
         protected BaseMvcController()
         {
             Logger = Castle.Core.Logging.NullLogger.Instance;
+            Worker = new Helpers.MqttWorker();
 
             var context = GlobalHost.ConnectionManager.GetHubContext<T>();
             Clients = context.Clients;

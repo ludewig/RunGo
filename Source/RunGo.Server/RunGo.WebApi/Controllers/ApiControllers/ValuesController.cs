@@ -22,6 +22,7 @@ namespace RunGo.WebApi.Controllers
         // GET api/values/5
         public string Get(int id)
         {
+            Worker.Publish("","");
             return "value";
         }
 
@@ -39,5 +40,7 @@ namespace RunGo.WebApi.Controllers
         public void Delete(int id)
         {
         }
+
+
     }
 }

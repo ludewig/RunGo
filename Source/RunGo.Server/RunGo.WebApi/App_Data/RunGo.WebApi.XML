@@ -543,6 +543,16 @@
             <param name="name"></param>
             <returns></returns>
         </member>
+        <member name="T:RunGo.WebApi.Helpers.TimeJobs">
+            <summary>
+            后台计划任务
+            </summary>
+        </member>
+        <member name="T:RunGo.WebApi.Helpers.JobScheduler">
+            <summary>
+            后台计划任务调度器
+            </summary>
+        </member>
         <member name="T:RunGo.WebApi.Startup">
             <summary>
             OWIN启动类
